@@ -231,4 +231,14 @@ div#footer-info p#location{
 @media (min-width: 321px) and (max-width: 480px){}
 
 /* Portrait phones */
-@media (min-width:240px) and (max-width:320px){}
+@media (min-width:240px) and (max-width:320px){
+	ul#nav{
+		font-size:20px;
+	}
+	div#footer-info p#date{
+		font-size: 28px;
+		line-height: 1.1;
+		margin-bottom: 6px;
+	}
+
+}
