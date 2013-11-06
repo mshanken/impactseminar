@@ -97,30 +97,26 @@ div#content{
 	text-align: left;
 	padding:20px;
 }
-.content-wrap div.table-responsive#speakers{
+.content-wrap div#speakers{
 	text-align: center;
 	font-size:11px;
 }
-.content-wrap div.table-responsive#speakers table{
-	width: 100%;
+
+.content-wrap div#speakers{
+	padding:25px 20px 20px;
 }
-.content-wrap div.table-responsive#speakers table#bottom-table{
-	width: inherit;
-}
-.content-wrap div.table-responsive#speakers table tr td{
-	width: 197px;
-}
-.content-wrap div.table-responsive#speakers h4{
+
+.content-wrap div#speakers h4{
 	font-size:13px;
 	text-transform: capitalize;
 	color:#de6013;
 	margin:12px 0 4px;
 	padding:0;
 }
-.content-wrap div.table-responsive#speakers img, div#moderator img{
+.content-wrap div#speakers img, div#moderator img{
 	border:1px solid #555555;
 }
-.content-wrap div.table-responsive#speakers p{
+.content-wrap div#speakers p{
 	padding:0 4px;
 }
 div#hotels{
@@ -225,7 +221,13 @@ div#footer-info p#location{
 	margin:0;
 	padding:0;
 }
-
+div#speakers .col-md-2 {
+	width: 19.666667%;
+	margin-bottom:30px;
+}
+div#speakers .col-md-4 {
+	width: 40.333333%;
+}
 /* ========================================================= MQ ===*/
 
 /* Portrait tablet to landscape and desktop */
