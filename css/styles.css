@@ -167,6 +167,10 @@ div#moderator div#moderator-text p{
 div#agenda-content p{
 	padding: 0 8px;
 }
+p#disclaimer{
+	font-size:12px;
+	margin:12px 0;
+}
 .content-wrap div#hotels p{
 	padding:0;
 }
@@ -348,5 +352,8 @@ div#speakers .col-md-mod {
 	}
 	div#moderator div#moderator-text p {
 		font-size: 16px;
+	}
+	p#disclaimer {
+		margin: 14px 0;
 	}
 }
