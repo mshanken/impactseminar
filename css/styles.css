@@ -123,6 +123,10 @@ div#content{
 .content-wrap div.table-responsive#speakers p{
 	padding:0 4px;
 }
+div#hotels{
+	text-align: left;
+	padding:8px 20px 20px 20px;
+}
 div#attention h1 span{
 	text-transform: capitalize;
 	font-size:22px;
@@ -168,6 +172,9 @@ div#moderator div#moderator-text p{
 	margin:0;
 }
 .content-wrap div.table-responsive p{
+	padding:0;
+}
+.content-wrap div#hotels p{
 	padding:0;
 }
 .content-wrap p#fee{
@@ -248,5 +255,8 @@ div#footer-info p#location{
 	.content-wrap p {
 		padding: 0 12px;
 		margin: 0;
+	}
+	.content-wrap h2{
+		font-size:23px;
 	}
 }
