@@ -240,5 +240,13 @@ div#footer-info p#location{
 		line-height: 1.1;
 		margin-bottom: 6px;
 	}
-
+	.register-btn a {
+		font-size: 20px;
+		padding: 10px;
+		width: inherit;
+	}
+	.content-wrap p {
+		padding: 0 12px;
+		margin: 0;
+	}
 }
