@@ -103,7 +103,7 @@ div#content{
 }
 
 .content-wrap div#speakers{
-	padding:25px 0px 0 0px;
+	padding:25px 20px 0 20px;
 }
 
 .content-wrap div#speakers h4{
@@ -224,29 +224,86 @@ div#footer-info p#location{
 	margin:0;
 	padding:0;
 }
-div#speakers .col-md-2 {
+div#speakers .col-md-speak {
 	width: 19.97%;
 	margin-bottom:30px;
+	float: left;
+	padding:0 10px;
 }
-div#speakers .col-md-4 {
+div#speakers .col-md-mod {
 	width: 39.58%;
+	float: left;
 }
 /* ========================================================= MQ ===*/
 @media (max-width: 992px){
-	div#speakers .col-md-2, div#speakers .col-md-4 {
+	div#speakers .col-md-speak, div#speakers .col-md-mod{
 		width: 100%;
 		margin-bottom: 18px;
 	}
 }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {}
+@media (min-width: 768px) and (max-width: 979px) {
+	.content-wrap div#speakers {
+		font-size: 14px;
+	}
+	.content-wrap div#speakers h4 {
+		font-size: 18px;
+	}
+	div#moderator img {
+		float: none;
+	}
+	div#moderator div#moderator-text {
+		margin-top: 12px;
+		width: 100%;
+		float: none;
+	}
+	div#moderator div#moderator-text p {
+		font-size: 16px;
+	}
+}
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {}
+@media (min-width: 481px) and (max-width: 767px) {
+	.content-wrap div#speakers {
+		font-size: 14px;
+	}
+	.content-wrap div#speakers h4 {
+		font-size: 18px;
+	}
+	div#moderator img {
+		float: none;
+	}
+	div#moderator div#moderator-text {
+		margin-top: 12px;
+		width: 100%;
+		float: none;
+	}
+	div#moderator div#moderator-text p {
+		font-size: 16px;
+	}
+}
 
 /* Landscape phones */
-@media (min-width: 321px) and (max-width: 480px){}
+@media (min-width: 321px) and (max-width: 480px){
+	.content-wrap div#speakers {
+		font-size: 14px;
+	}
+	.content-wrap div#speakers h4 {
+		font-size: 18px;
+	}
+	div#moderator img {
+		float: none;
+	}
+	div#moderator div#moderator-text {
+		margin-top: 12px;
+		width: 100%;
+		float: none;
+	}
+	div#moderator div#moderator-text p {
+		font-size: 16px;
+	}
+}
 
 /* Portrait phones */
 @media (min-width:240px) and (max-width:320px){
@@ -269,5 +326,22 @@ div#speakers .col-md-4 {
 	}
 	.content-wrap h2{
 		font-size:23px;
+	}
+	.content-wrap div#speakers {
+		font-size: 14px;
+	}
+	.content-wrap div#speakers h4 {
+		font-size: 18px;
+	}
+	div#moderator img {
+		float: none;
+	}
+	div#moderator div#moderator-text {
+		margin-top: 12px;
+		width: 100%;
+		float: none;
+	}
+	div#moderator div#moderator-text p {
+		font-size: 16px;
 	}
 }
