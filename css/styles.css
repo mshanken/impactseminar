@@ -103,7 +103,7 @@ div#content{
 }
 
 .content-wrap div#speakers{
-	padding-top:25px;
+	padding:25px 0px 0 0px;
 }
 
 .content-wrap div#speakers h4{
@@ -117,11 +117,11 @@ div#content{
 	border:1px solid #555555;
 }
 .content-wrap div#speakers p{
-	padding:0 4px;
+	padding:0px;
 }
 div#hotels{
 	text-align: left;
-	padding:8px 20px 20px 20px;
+	padding:8px 20px 20px 10px;
 }
 div#attention h1 span{
 	text-transform: capitalize;
@@ -144,7 +144,6 @@ div#moderator {
 }
 div#moderator img{
 	float: left;
-	margin-right: 4px;
 }
 div#moderator div#moderator-text{
 	line-height: 1.3;
@@ -164,11 +163,11 @@ div#moderator div#moderator-text h3{
 div#moderator div#moderator-text p{
 	color:#e2f4fd;
 	text-align: center;
-	font-size: 14px; 
+	font-size: 13px; 
 }
 
 .content-wrap p{
-	padding:0 20px;
+	padding:0px;
 	margin:0;
 }
 .content-wrap div.table-responsive p{
@@ -226,11 +225,11 @@ div#footer-info p#location{
 	padding:0;
 }
 div#speakers .col-md-2 {
-	width: 19.666667%;
+	width: 19.97%;
 	margin-bottom:30px;
 }
 div#speakers .col-md-4 {
-	width: 40.333333%;
+	width: 39.58%;
 }
 /* ========================================================= MQ ===*/
 @media (max-width: 992px){
