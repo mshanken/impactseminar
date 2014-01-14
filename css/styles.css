@@ -17,7 +17,7 @@ a{color:#cd5623;text-decoration:none;}a:hover,a:focus{color:#de6013;text-decorat
 a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
 div#header, div.footer{
 	text-align: center;
-	padding:20px 0 10px;
+	padding:8px 0px;
 }
 #logo img{
 	max-width: 100%;
@@ -47,8 +47,6 @@ ul#nav li:after{
 }
 ul#nav li:last-child:after{
 	content: none;
-}
-div#content{
 }
 .content-wrap{
 	background-color:#ffffff;
@@ -84,44 +82,40 @@ div#content{
 	color:#de6013;
 }
 .content-wrap h3{
-	text-align: left;
 	padding:8px 0 4px;
 	margin:0;
-	font-size:16px;
+	font-size:16px;	
+	text-align: left;
 	font-weight: bold;
 	text-transform: capitalize;
 	color:#de6013;
 }
-.content-wrap div.table-responsive{
-	font-size:13px;
-	text-align: left;
-	padding:20px;
-}
-.content-wrap div.table-responsive#speakers{
+
+.content-wrap div#speakers{
 	text-align: center;
 	font-size:11px;
 }
-.content-wrap div.table-responsive#speakers table{
-	width: 100%;
+
+.content-wrap div#speakers{
+	padding:25px 20px 0 20px;
 }
-.content-wrap div.table-responsive#speakers table#bottom-table{
-	width: inherit;
-}
-.content-wrap div.table-responsive#speakers table tr td{
-	width: 197px;
-}
-.content-wrap div.table-responsive#speakers h4{
-	font-size:13px;
+
+.content-wrap div#speakers h4{
+	font-size:14px;
 	text-transform: capitalize;
 	color:#de6013;
-	margin:12px 0 4px;
+	margin:10px 0 4px;
 	padding:0;
 }
-.content-wrap div.table-responsive#speakers img, div#moderator img{
+.content-wrap div#speakers img, div#moderator img{
 	border:1px solid #555555;
 }
-.content-wrap div.table-responsive#speakers p{
-	padding:0 4px;
+.content-wrap div#speakers p{
+	padding:0px;
+}
+div#hotels{
+	text-align: left;
+	padding:8px 20px 20px 10px;
 }
 div#attention h1 span{
 	text-transform: capitalize;
@@ -142,32 +136,42 @@ div#moderator {
 	font-weight: normal;
 	color:white;
 }
+div#moderator img{
+	float: left;
+}
 div#moderator div#moderator-text{
 	line-height: 1.3;
-	width: 170px;
+	width: 185px;
+	float:left;
 	padding:0px;
 	margin:0;
 }
 div#moderator div#moderator-text h3{
 	text-transform: uppercase;
-	color:white;
 	text-align: center;
+	color:white;
 	font-size: 21px;
 	padding: 0;
-	margin: 0 0 10px 4px;
+	margin: 0 0 10px 0px;
 }
 div#moderator div#moderator-text p{
 	color:#e2f4fd;
-	font-size: 14px; 
+	text-align: center;
+	font-size: 13px; 
 }
-.table tbody tr td{
-	border-top:none;
-}
+
 .content-wrap p{
-	padding:0 20px;
+	padding:0px;
 	margin:0;
 }
-.content-wrap div.table-responsive p{
+div#agenda-content p{
+	padding: 0 8px;
+}
+p#disclaimer{
+	font-size:11px;
+	margin:12px 0;
+}
+.content-wrap div#hotels p{
 	padding:0;
 }
 .content-wrap p#fee{
@@ -218,17 +222,93 @@ div#footer-info p#location{
 	margin:0;
 	padding:0;
 }
-
+div#speakers .col-md-speak {
+	width: 19.97%;
+	margin-bottom:30px;
+	float: left;
+	padding:0 10px;
+}
+div#speakers .col-md-mod {
+	width: 39.58%;
+	float: left;
+}
 /* ========================================================= MQ ===*/
+@media (max-width: 992px){
+	div#speakers .col-md-speak, div#speakers .col-md-mod{
+		width: 100%;
+		margin-bottom: 18px;
+	}
+}
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+	.content-wrap div#speakers {
+		font-size: 14px;
+	}
+	.content-wrap div#speakers h4 {
+		font-size: 18px;
+	}
+	.content-wrap div#speakers div.col-md-12{
+		text-align: left;
+	}
+	.content-wrap div#speakers div.col-md-12 img{
+		float:left;
+		margin-right: 12px;
+	}
+	div#moderator img {
+		float: none;
+	}
+	div#moderator div#moderator-text {
+		margin-top: 12px;
+		width: 100%;
+		float: none;
+	}
+	div#moderator div#moderator-text p {
+		font-size: 16px;
+	}
+}
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {}
+@media (min-width: 481px) and (max-width: 767px) {
+	.content-wrap div#speakers {
+		font-size: 14px;
+	}
+	.content-wrap div#speakers h4 {
+		font-size: 18px;
+	}
+	div#moderator img {
+		float: none;
+	}
+	div#moderator div#moderator-text {
+		margin-top: 12px;
+		width: 100%;
+		float: none;
+	}
+	div#moderator div#moderator-text p {
+		font-size: 16px;
+	}
+}
 
 /* Landscape phones */
-@media (min-width: 321px) and (max-width: 480px){}
+@media (min-width: 321px) and (max-width: 480px){
+	.content-wrap div#speakers {
+		font-size: 14px;
+	}
+	.content-wrap div#speakers h4 {
+		font-size: 18px;
+	}
+	div#moderator img {
+		float: none;
+	}
+	div#moderator div#moderator-text {
+		margin-top: 12px;
+		width: 100%;
+		float: none;
+	}
+	div#moderator div#moderator-text p {
+		font-size: 16px;
+	}
+}
 
 /* Portrait phones */
 @media (min-width:240px) and (max-width:320px){
@@ -248,5 +328,32 @@ div#footer-info p#location{
 	.content-wrap p {
 		padding: 0 12px;
 		margin: 0;
+	}
+	.content-wrap h2{
+		font-size:19px;
+	}
+	.content-wrap div#speakers {
+		font-size: 14px;
+	}
+	.content-wrap div#speakers h4 {
+		font-size: 18px;
+	}
+	div#moderator{
+		padding:22px 14px 18px;
+		box-shadow: none;
+	}
+	div#moderator img {
+		float: none;
+	}
+	div#moderator div#moderator-text {
+		margin-top: 12px;
+		width: 100%;
+		float: none;
+	}
+	div#moderator div#moderator-text p {
+		font-size: 16px;
+	}
+	p#disclaimer {
+		margin: 14px 0;
 	}
 }
