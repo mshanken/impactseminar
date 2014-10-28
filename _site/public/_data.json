@@ -1,0 +1,22 @@
+{
+	"index": {
+		"title": "index",
+		"description": "index",
+		"keywords": "index"
+	},
+	"agenda": {
+		"title": "agenda",
+		"description": "agenda",
+		"keywords": "agenda"
+	},
+	"hotels": {
+		"title": "hotels",
+		"description": "hotels",
+		"keywords": "hotels"
+		},
+	"speakers": {
+		"title": "speakers",
+		"description": "speakers",
+		"keywords": "speakers"
+	}
+}

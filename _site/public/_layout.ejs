@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   	<%- partial("_includes/_headmetatags") %>
+  </head>
+
+  <body>
+    
+    <%- partial("_includes/_header") %>
+
+    <% if ( current.path[0] !== "index" ) { %>
+    	<div id="main">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-md-12">
+	            <div id="content">
+	              <div class="content-wrap clearfix">
+	              	<%- yield %>
+	              </div><!-- /.content-wrap -->
+	            </div><!-- /#content -->
+	          </div><!-- /.col-md-12 -->
+	        </div><!-- /.row -->
+	      </div><!-- /.container -->
+	    </div><!-- /#main -->
+    <% } %>
+
+    <%- partial("_includes/_footer") %>
+
+    <!-- %- partial("_includes/_divsoldout") % -->
+
+    <script src="js/libs/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+</html>
