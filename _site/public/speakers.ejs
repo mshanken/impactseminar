@@ -60,6 +60,11 @@
 </div><!--/#speakers-->
 </div><!--/.content-wrap-->
 </div><!--/.content-->
+<% if ( current.path[0] === "speakers" ) { %>
+		
+			<%- partial("_includes/_secondspeakerfooter.ejs") %>
+		
+	<%	} %>
 </div><!--/.col-->
 
 
@@ -70,7 +75,7 @@
 				<h1 class="header-text">HOST:</h1>
 				<img src="img/speakers/IMPSeminar15_Speakers-9.jpg" title="Ivan Menezes" alt="Jerry Yang" />
 				<h4>Marvin R. Shanken</h4>
-				<p class="host">Chairman<br/>M. Shanken Communications, Inc.<br/>New York City</p>
+				<p class="host">Chairman<br/>M. Shanken Communications, Inc.</p>
 			</div><!-- marvin -->
 			<hr style="margin-top:12px; margin-bottom:8px;" />
 			<div id="moderators">

@@ -24,11 +24,7 @@
     <% } %>
 
     
-    <% if ( current.path[0] === "speakers" ) { %>
-		<div class="container">
-			<%- partial("_includes/_secondspeakerfooter.ejs") %>
-		</div><!-- container --> 
-	<%	} %>
+    
 	<% if ( current.path[0] !== "hotels" && current.path[0] !== "speakers") { %>
 		<%- partial("_includes/_footer") %>
 		
