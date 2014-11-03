@@ -1,6 +1,6 @@
 /* Impact Seminar micro-site custom styles #de6013 */
 html { 
-  background: url(../img/city-background2.jpg) no-repeat center center fixed; 
+  background: url(../img/City-background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,15 +13,22 @@ body{
 	line-height: 1.4;
 	letter-spacing: 0.075em;
 }
-a{color:#cd5623;text-decoration:none;}a:hover,a:focus{color:#de6013;text-decoration:underline;}
+a{color:#ca1f45;text-decoration:none;}a:hover,a:focus{color:#ca1f45;text-decoration:underline;}
 a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
 div#header, div.footer{
 	text-align: center;
 	padding:8px 0px;
 }
+h3{
+	margin-top: 7px;
+}
 #logo img{
 	max-width: 100%;
 	height: auto;
+}
+.container{
+	/* max-width: 760px; */
+	z-index: -1;
 }
 ul#nav{
 	margin-top: 12px;
@@ -39,7 +46,7 @@ ul#nav li a{
 	text-decoration: none;
 }
 ul#nav li a:hover{
-	color:#ff9966;
+	color:#ca1f45;
 }
 ul#nav li:after{
 	content: '|';
@@ -52,7 +59,7 @@ ul#nav li:last-child:after{
 	background-color:#ffffff;
 	border-radius:18px;
 	text-align: center;
-	max-width: 960px;
+	max-width: 860px;
 	min-height: 300px;
 	margin: 0 auto 20px; 
 	padding:0px 0 20px;
@@ -70,7 +77,7 @@ ul#nav li:last-child:after{
 	font-weight: bold;
 	text-transform: uppercase;
 	color:white;
-	background-color:#de6013;
+	background-color:#ca1f45;
 }
 .content-wrap h2{
 	text-align: center;
@@ -79,16 +86,16 @@ ul#nav li:last-child:after{
 	font-size:18px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color:#de6013;
+	color:#ca1f45;
 }
 .content-wrap h3{
-	padding:8px 0 4px;
+	padding:15px 0 0px;
 	margin:0;
 	font-size:16px;	
 	text-align: left;
 	font-weight: bold;
 	text-transform: capitalize;
-	color:#de6013;
+	color:#ca1f45;
 }
 
 .content-wrap div#speakers{
@@ -103,15 +110,17 @@ ul#nav li:last-child:after{
 .content-wrap div#speakers h4{
 	font-size:14px;
 	text-transform: capitalize;
-	color:#de6013;
+	color:#ca1f45;
 	margin:10px 0 4px;
 	padding:0;
+	font-weight: bold;
 }
 .content-wrap div#speakers img, div#moderator img{
 	border:1px solid #555555;
 }
 .content-wrap div#speakers p{
 	padding:0px;
+	line-height: 1.2;
 }
 div#hotels{
 	text-align: left;
@@ -183,7 +192,7 @@ p#disclaimer{
 .register-btn a{
 	font-size: 24px;
 	border-radius: 12px;
-	background-color: #de6013;
+	background-color: #ca1f45;
 	color:white;
 	cursor: pointer;
 	padding:10px 24px;
@@ -192,8 +201,12 @@ p#disclaimer{
 	color:white;
 }
 .register-btn a:hover{
-	background-color: #cd5623;
+	background-color: #ca1f45;
 	text-decoration: none;
+}
+.agenda-foot{
+	font-family: Arial;
+	font-size: 12px;
 }
 div.footer{
 	padding-bottom:80px;
@@ -223,7 +236,7 @@ div#footer-info p#location{
 	padding:0;
 }
 div#speakers .col-md-speak {
-	width: 19.97%;
+	width: 25%;
 	margin-bottom:30px;
 	float: left;
 	padding:0 10px;
@@ -231,6 +244,60 @@ div#speakers .col-md-speak {
 div#speakers .col-md-mod {
 	width: 39.58%;
 	float: left;
+}
+#second-speakers{
+	background-color: #ca1f45;
+	border-radius: 25px;
+/* 	max-width: 700px; */
+	/*
+margin: -40px auto 0;
+	z-index: -1;
+	position: absolute;
+	right: 0;
+*/
+}
+#second-row{
+	margin-top: 20px;
+}
+#marvin{
+	color:#ffffff;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.0em;
+}
+#moderators{
+	text-align: center;
+}
+.host{
+	font-size: 11px;
+	text-transform: capitalize;
+	margin: 10px 0 4px;
+	padding: 0;
+	font-weight: bold;
+}
+ div#speakers h4 {
+	font-size: 15px;
+	text-transform: capitalize;
+	padding: 0;
+	font-weight: bold;
+	margin-bottom: -7px;
+}
+.header-text{
+	text-align: center;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+	border-bottom-left-radius: none;
+	border-bottom-left-radius: none;
+	padding: 8px 0;
+	margin: 0px;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.content-wrap p.titles{
+	margin-top:5px;
 }
 /* ========================================================= MQ ===*/
 @media (max-width: 992px){
@@ -355,5 +422,11 @@ div#speakers .col-md-mod {
 	}
 	p#disclaimer {
 		margin: 14px 0;
+	}
+}
+
+@media (min-width: 768px){
+	#second-speakers{
+		
 	}
 }
