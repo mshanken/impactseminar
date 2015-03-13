@@ -17,7 +17,7 @@ This is a static page site build with [Harpjs]. Once you have the requirements i
 To install grunt task runner dependencies, NPM was added recently so you might want to run it now, not need to run it after that, unless you start by clonning the project again.
 
 ##```npm run server```
-To run harp server from your harpjs working directory (usually _site), once you run this command open your browser with this location http://localhost:9000 to preview your working site. Use ```ctrl+c``` to turn off the server.
+Runs harp server from your harpjs working directory (usually _site), once you run this command open your browser with this location http://localhost:9000 to preview your working site. Use ```ctrl+c``` to turn off the server.
 
 ##```npm  run compile```
 Runs harp compile, this command will generate the HTML of your working project that harpjs had created, check harp project if it generates errors.
