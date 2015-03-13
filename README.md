@@ -14,7 +14,7 @@ There's two ways to do this either in your desktop or in our QA machine. To star
 This is a static page site build with [Harpjs]. Once you have the requirements installed you can now clone this repo or git pull to update. You can start working on it, a list of commads at your dispose. Enjoy it!
 
 ##```npm install```
-To install grunt task runner dependencies, this was added reently so you might want to run it once, after that it might need to run ```npm update``` if there's any update only do not run this if you need it.
+To install grunt task runner dependencies, NPM was added recently so you might want to run it now, not need to run it after that, unless you start by clonning the project again.
 
 ##```npm run server```
 To run harp server from your harpjs working directory (usually _site), once you run this command open your browser with this location http://localhost:9000 to preview your working site. Use ```ctrl+c``` to turn off the server.
