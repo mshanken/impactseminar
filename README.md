@@ -1,4 +1,4 @@
-#[ImpactSeminar](http://apps.winespectator.com/)
+#[ImpactSeminar](http://www.impactseminar.com/)
 
 Impact Seminar site is build using harp-js for rapid static HTML generation
 
