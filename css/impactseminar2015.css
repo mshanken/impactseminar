@@ -199,7 +199,13 @@ body{
 	    font-size: 15px;
 	}
   #homepage{
-        padding-top: 0px;
+      padding-top: 0px;
+  }
+  #mobile_marvin{
+     margin-bottom: 20px !important;
+  }
+  #embracing {
+    margin-bottom: 60px !important;
   }
 }
 
@@ -209,7 +215,15 @@ body{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-
+    #hotel_text {
+    padding-left: 100px;
+  }
+  .btn-default {
+    color: #ffffff;
+    background-color: #b0662b;
+    border-color: #e0c98b;
+    font-size: 15px;
+  }
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -243,6 +257,12 @@ body{
   #homepage{
         padding-top: 0px;
   }
+  #mobile_marvin{
+     margin-bottom: 20px !important;
+  }
+  #embracing {
+    margin-bottom: 60px !important;
+  }
 }
 
 /* Landscape */
@@ -251,7 +271,15 @@ body{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-
+   #hotel_text {
+    padding-left: 100px;
+  }
+  .btn-default {
+    color: #ffffff;
+    background-color: #b0662b;
+    border-color: #e0c98b;
+    font-size: 15px;
+  }
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -293,7 +321,15 @@ body{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-
+ #hotel_text {
+    padding-left: 100px;
+  }
+  .btn-default {
+    color: #ffffff;
+    background-color: #b0662b;
+    border-color: #e0c98b;
+    font-size: 15px;
+  }
 }
 
 /* ----------- iPhone 6+ ----------- */
@@ -335,7 +371,15 @@ body{
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
-
+ #hotel_text {
+    padding-left: 100px;
+  }
+  .btn-default {
+    color: #ffffff;
+    background-color: #b0662b;
+    border-color: #e0c98b;
+    font-size: 15px;
+  }
 }
 /* ----------- iPad mini ----------- */
 
@@ -366,6 +410,15 @@ body{
   and (-webkit-min-device-pixel-ratio: 1) {
      #hotel_text{
     padding-left: 150px;
+  }
+   #hotel_text {
+    padding-left: 100px;
+  }
+  .btn-default {
+    color: #ffffff;
+    background-color: #b0662b;
+    border-color: #e0c98b;
+    font-size: 15px;
   }
 }
 
