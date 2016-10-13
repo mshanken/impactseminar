@@ -2,69 +2,578 @@
     font-family: glyphicons-halflings;
     src: url(glyphicons-halflings-regular.ttf);
 }
-
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url(Open_Sans/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(Open_Sans/OpenSans-ExtraBold.ttf);
+}
+/* site_space */
+.site_space{
+  width: 1024px;
+  margin: 0 auto;
+}
+/* nav */
+.navbar {
+  background-color: #dee4f3;
+}
+nav, li, a {
+  color: #1c3b6e !important;
+}
+.nav_text{
+  font-size: 38px;
+  font-family: OpenSans-Semibold !important;
+}
+#hometext_test {
+  margin-left: 40px;
+}
+.pike{
+  padding-left: 20px;
+}
+/* end of nav */
 .background-image{
-	background-image: url('http://assets.mshanken.com/promo/images/IMPSeminar17_STD-V1.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 1180px;
+  /*background-image: url('http://assets.mshanken.com/promo/images/IMPSeminar17_STD-V1.jpg');*/
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1180px;
 }
 .homepage_homepage{
-	padding-top: 100px;
-	padding-left: 20px;
+  padding-top: 100px;
+  padding-left: 20px;
 }
 .save_the_date{
-	color:#f6e3b9;
-	background-color: #1c3b6e;
-	width: 550px;
-	font-size: 35px;
-	font-family: arial;
-	font-weight: 600;
-	padding-left: 10px;
-	text-transform: uppercase;
-	letter-spacing: 4px;
+  color:#f6e3b9;
+  background-color: #1c3b6e;
+  width: 550px;
+  font-size: 35px;
+  font-family: arial;
+  font-weight: 600;
+  padding-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 .headline{
-	color: #ffffff;
-	font-size: 40px;
-	font-family: glyphicons-halflings;
-	margin-bottom: 0px;
-	letter-spacing: 1px;
+  color: #ffffff;
+  font-size: 40px;
+  font-family: glyphicons-halflings;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
 }
 .word_impact{
-	color: #1c3b6e;
-	font-size: 135px;
-	font-family: glyphicons-halflings;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	line-height: 0.6;
-	letter-spacing: 7px;
+  color: #1c3b6e;
+  font-size: 135px;
+  font-family: glyphicons-halflings;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 0.6;
+  letter-spacing: 7px;
 }
 .word_market{
-	color: #ffffff;
-	font-size: 88px;
-	font-family: glyphicons-halflings;
-	margin-top: 0px;
-	margin-bottom: 0px;
+  color: #ffffff;
+  font-size: 88px;
+  font-family: glyphicons-halflings;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .word_seminar{
-	color: #ffffff;
-	font-size: 90px;
-	font-family: glyphicons-halflings;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	line-height: 0.7;
+  color: #ffffff;
+  font-size: 90px;
+  font-family: glyphicons-halflings;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 0.7;
 }
 .date{
-	color: #1c3b6e;
-	font-size: 24px;
-	font-family: arial;
-	font-weight: bold;
-	padding-top: 20px;
-	text-transform: uppercase;
+  color: #1c3b6e;
+  font-size: 24px;
+  font-family: arial;
+  font-weight: bold;
+  padding-top: 20px;
+  text-transform: uppercase;
 }
 sup {
     top: -.9em !important;
     font-size: 18px !important;
     font-weight: lighter !important;
+}
+
+/*  Hotel Page */
+
+.main_image{
+  margin:0 auto;
+  
+}
+.hotel_header{
+  color: #1c3b6e;
+  font-family: Times New Roman;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+.hosting{
+  color: #000000 !important;
+  font-family: OpenSans-Regular;
+}
+.welcome_reception{
+  color: #5d3514;
+  font-family: OpenSans-Bold;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#hotel_address{
+  text-align: left;
+}
+.place{
+  color: #1c3b6e;
+  font-family: OpenSans-ExtraBold;
+  font-size:19px;
+  font-weight:bold;
+  margin-bottom: 0;
+}
+.address{
+  color: #5d3514;
+  font-family:OpenSans-Regular;
+  font-size:17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.number{
+  color: #5d3514;
+  font-family:OpenSans-Regular;
+  font-size:17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.hotel_footer_text{
+  color: #5d3514;
+  font-size: 20px;
+  text-align: center;
+  font-family: OpenSans-Semibold;
+}
+.hotel_footer_text_2{
+  color: #5d3514;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 35px solid #1c3b6e;
+  font-family:OpenSans-Regular;
+}
+#hotel_footer{
+  padding-top: 35px;
+  color: #361f0c;
+  font-size: 17px;
+  text-align: center;
+}
+/*  Hotel Page */
+
+/* Agenda Page */
+.heading-border{
+  border-top: 1px solid #596f95;
+  margin-top: 40px;
+}
+#horizontal_borders{
+  display: block;
+  background-color:white;
+  width: 300px;
+  margin: -35px auto 0;
+}
+.section_header{
+  color: #1c3b6e;
+  font-family: OpenSans-ExtraBold;
+  font-size:19px;
+  font-weight:bold;
+  text-align: center;
+}
+.agenda_date{
+  color: #5d3514;
+  font-family:;
+  font-size:16px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.agenda_host{
+  color: #5d3514;
+  font-family:;
+  font-size:16px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.agenda_time{
+  color: #5d3514;
+  font-family:;
+  font-size:16px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.agenda_place{
+  color: #5d3514;
+  font-family:;
+  font-size:16px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.agenda_text{
+  color: #5d3514;
+  font-family:;
+  font-size:16px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.click_here{
+  margin:0 auto;
+}
+.clickhere_button{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btn {
+  color: #ffffff !important;
+  background-color:#1c3b6e !important;
+  padding:15px 100px 15px 100px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: ;
+}
+/* End of Agenda Page */
+
+/* Speaker Page */
+.host_name{
+  color: #1c3b6e;
+  font-family: ;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.host_title{
+  color: #466597;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#speakers_borders {
+  display: block;
+  background-color: white;
+  width: 400px;
+  margin: -35px auto 0;
+}
+.speakers_quote{
+  color:#808285; 
+  font-weight: bold;
+  font-family: OpenSans-Bold;
+}
+#creating_space{
+  margin-bottom: 20px;
+}
+/* End of Speaker Page */
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    nav, li, a {
+      color: #1c3b6e !important;
+    }
+    .navbar{
+      background-color: #dee4f3;
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    .visible-xs{
+       background-color: #28375c;
+    }
+    .btn {
+      color: #ffffff !important;
+      background-color: #1c3b6e !important;
+      padding: 15px 15px 15px 15px;
+      margin: 0 auto;
+      font-size: 23px;
+      font-weight: bold;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    nav, li, a {
+      color: #1c3b6e !important;
+    }
+    .navbar{
+      background-color: #dee4f3;
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    .visible-xs{
+       background-color: #28375c;
+    }
+    .btn {
+      color: #ffffff !important;
+      background-color: #1c3b6e !important;
+      padding: 15px 15px 15px 15px;
+      margin: 0 auto;
+      font-size: 23px;
+      font-weight: bold;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    nav, li, a {
+      color: #1c3b6e !important;
+    }
+    .navbar{
+      background-color: #dee4f3;
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    .visible-xs{
+       background-color: #28375c;
+    }
+    .btn {
+      color: #ffffff !important;
+      background-color: #1c3b6e !important;
+      padding: 15px 15px 15px 15px;
+      margin: 0 auto;
+      font-size: 23px;
+      font-weight: bold;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    nav, li, a {
+      color: #1c3b6e !important;
+    }
+    .navbar{
+      background-color: #dee4f3;
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    .visible-xs{
+       background-color: #28375c;
+    }
+    #hotel_address{
+    text-align: left;
+    width:100%;
+  }
+  /* Agenda Page */
+  .btn {
+      color: #ffffff !important;
+      background-color: #1c3b6e !important;
+      padding: 20px 20px 20px 20px;
+      margin: 0 auto;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    #horizontal_borders {
+      display: block !important;
+      background-color: white !important;
+      width: 200px !important;
+      margin: -28px auto 0 !important;
+    }
+    .hotel_header {
+      color: #1c3b6e;
+      font-family: Times New Roman;
+      font-weight: bold;
+      font-size: 40px;
+      text-align: center;
+    }
+    .section_header {
+      color: #1c3b6e;
+      font-family: OpenSans-ExtraBold;
+      font-size: 27px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .agenda_date {
+      color: #5d3514;
+      font-family: OpenSans-Regular;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .agenda_host {
+        color: #5d3514;
+        font-family: OpenSans-Regular;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .agenda_time {
+      color: #5d3514;
+      font-family: OpenSans-Regular;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .agenda_place {
+      color: #5d3514;
+      font-family: OpenSans-Regular;
+      font-size: 23px;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .agenda_text {
+      color: #5d3514;
+      font-family: OpenSans-Regular;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    /* End of Agenda Page */
+    /* Footer style */
+    .hotel_footer_text {
+      color: #5d3514;
+      font-size: 24px;
+      text-align: center;
+      font-family: OpenSans-Semibold;
+    }
+    .hotel_footer_text_2 {
+      color: #5d3514;
+      font-size: 24px;
+      text-align: center;
+      padding-bottom: 15px;
+      border-bottom: 35px solid #1c3b6e;
+      font-family: OpenSans-Regular;
+    }
+    /* End of Footer style */
+
+    /* Hotel Page */
+    .first_row_last_hotel{
+      margin-bottom: 15px;
+    }
+    .place {
+      color: #1c3b6e;
+      font-family: OpenSans-ExtraBold;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    .address {
+      color: #5d3514;
+      font-family: OpenSans-Regular;
+      font-size: 25px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .number {
+      color: #5d3514;
+      font-family: OpenSans-Regular;
+      font-size: 25px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }
