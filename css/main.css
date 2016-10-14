@@ -156,6 +156,9 @@ sup {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.hotel_extra_space{
+  margin-top: 25px;
+}
 .hotel_footer_text{
   color: #5d3514;
   font-size: 20px;
@@ -396,8 +399,8 @@ sup {
     #owners_borders {
       display: block;
       background-color: white;
-      width: 161px;
-      margin: -28px auto 0;
+      width: 120px;
+      margin: -20px auto 0;
     }
     #owner_biopics{
       margin-right: 50px !important;
@@ -409,8 +412,14 @@ sup {
     #speakers_borders {
       display: block;
       background-color: white;
-      width: 301px;
-      margin: -30px auto 0;
+      width: 230px;
+      margin: -20px auto 0;
+    }
+    #horizontal_borders {
+      display: block;
+      background-color: white;
+      width: 168px;
+      margin: -21px auto 0;
     }
     #moderators_space{
       margin-bottom: 20px;
@@ -432,7 +441,10 @@ sup {
     margin-left: 5px !important;
     }
     .first_row_last_hotel{
-      margin-bottom: 15px;
+      margin-bottom: 15px !important;
+    }
+    .hotel_extra_space{
+      margin-top: 5px !important;
     }
 }
 
@@ -690,6 +702,12 @@ sup {
     font-weight: bold;
     margin-bottom: 4px !important;
     margin-left: 5px !important;
+    }
+    .hotel_extra_space{
+      margin-top: 5px !important;
+    }
+    #bio_pic_space{
+      margin-top: 20px !important;
     }
 }
 
