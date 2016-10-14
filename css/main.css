@@ -268,7 +268,6 @@ sup {
   font-size: 14px;
   font-weight: bold;
 }
-
 #speakers_borders {
   display: block;
   background-color: white;
@@ -279,6 +278,12 @@ sup {
   color:#808285; 
   font-weight: bold;
   font-family: OpenSans-Bold;
+}
+#owners_borders{
+  display: block;
+  background-color: white;
+  width: 161px;
+  margin: -35px auto 0;
 }
 #creating_space{
   margin-bottom: 20px;
@@ -458,7 +463,7 @@ sup {
     #horizontal_borders {
       display: block !important;
       background-color: white !important;
-      width: 200px !important;
+      width: 230px !important;
       margin: -28px auto 0 !important;
     }
     .hotel_header {
@@ -516,6 +521,7 @@ sup {
       margin-bottom: 0px;
     }
     /* End of Agenda Page */
+
     /* Footer style */
     .hotel_footer_text {
       color: #5d3514;
@@ -557,6 +563,54 @@ sup {
       font-size: 25px;
       margin-top: 0px;
       margin-bottom: 0px;
+    }
+    /* site_space */
+    .site_space{
+      width: 100%;
+      margin: 0 auto;
+    }
+    /* site_space */
+    #center_mobile{
+      margin-left: 90px !important;
+      margin-top: 15px !important;
+    }
+    #owners_borders {
+      display: block;
+      background-color: white;
+      width: 161px;
+      margin: -28px auto 0;
+    }
+    #owner_biopics{
+      margin-right: 100px !important;
+    }
+    #creating_space {
+      margin-bottom: 20px;
+      margin-left: 75px;
+    }
+    #speakers_borders {
+      display: block;
+      background-color: white;
+      width: 301px;
+      margin: -30px auto 0;
+    }
+    #moderators_space{
+      margin-bottom: 20px;
+      margin-left: 75px;
+    }
+    .host_title {
+    color: #466597;
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    }
+    .host_name {
+    color: #1c3b6e;
+    font-family: ;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px !important;
+    margin-left: 5px !important;
     }
 }
 
