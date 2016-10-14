@@ -446,6 +446,9 @@ sup {
     .hotel_extra_space{
       margin-top: 5px !important;
     }
+    #bio_pic_space{
+      margin-top: 20px !important;
+    }
 }
 
 /* Portrait */
@@ -705,9 +708,6 @@ sup {
     }
     .hotel_extra_space{
       margin-top: 5px !important;
-    }
-    #bio_pic_space{
-      margin-top: 20px !important;
     }
 }
 
