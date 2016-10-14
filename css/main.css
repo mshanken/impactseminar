@@ -502,6 +502,24 @@ sup {
       font-size: 23px;
       font-weight: bold;
     }
+    #owner_biopics {
+      margin-right: 80px !important;
+    }
+    #center_mobile {
+      margin-left: 70px !important;
+      margin-top: 15px !important;
+    }
+    #creating_space {
+      margin-bottom: 20px;
+      margin-left: 55px;
+    }
+    #moderators_space {
+      margin-bottom: 20px;
+      margin-left: 55px;
+    }
+    #speakers_space{
+      margin-top: 0px !important;
+    }
 }
 
 /* Portrait */
@@ -711,6 +729,9 @@ sup {
     }
     .hotel_extra_space{
       margin-top: 5px !important;
+    }
+    #speakers_space{
+      margin-top: 0px !important;
     }
 }
 
