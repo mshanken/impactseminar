@@ -546,9 +546,7 @@ sup {
       width: 100%;
       margin-left: 0px;
     }
-    .visible-xs{
-       background-color: #28375c;
-    }
+    
     #hotel_address{
     text-align: left;
     width:100%;
@@ -561,6 +559,7 @@ sup {
       margin: 0 auto;
       font-size: 30px;
       font-weight: bold;
+      border-radius: 0px;
     }
     #horizontal_borders {
       display: block !important;
