@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-@font-face {
-    font-family: glyphicons-halflings;
-    src: url(glyphicons-halflings-regular.ttf);
-}
 
-.background-image{
-  background-image: url('http://assets.mshanken.com/promo/images/IMPSeminar17_STD-V1.jpg');
-=======
-/*#bio_borders{
-  border: solid 3px #dee4f3;
-}*/
 /* site_space */
 .site_space{
   width: 1024px;
@@ -36,74 +25,6 @@ nav, li, a {
   padding-left: 20px;
 }
 /* end of nav */
-
-.background-image{
-  /*background-image: url('http://assets.mshanken.com/promo/images/IMPSeminar17_STD-V1.jpg');*/
->>>>>>> master
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 1180px;
-}
-<<<<<<< HEAD
-.homepage_homepage{
-  padding-top: 100px;
-  padding-left: 20px;
-}
-.save_the_date{
-  color:#f6e3b9;
-  background-color: #1c3b6e;
-  width: 550px;
-  font-size: 35px;
-  font-family: arial;
-  font-weight: 600;
-  padding-left: 10px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-.headline{
-  color: #ffffff;
-  font-size: 40px;
-  font-family: glyphicons-halflings;
-  margin-bottom: 0px;
-  letter-spacing: 1px;
-}
-.word_impact{
-  color: #1c3b6e;
-  font-size: 135px;
-  font-family: glyphicons-halflings;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 0.6;
-  letter-spacing: 7px;
-}
-.word_market{
-  color: #ffffff;
-  font-size: 88px;
-  font-family: glyphicons-halflings;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.word_seminar{
-  color: #ffffff;
-  font-size: 90px;
-  font-family: glyphicons-halflings;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  line-height: 0.7;
-}
-.date{
-  color: #1c3b6e;
-  font-size: 24px;
-  font-family: arial;
-  font-weight: bold;
-  padding-top: 20px;
-  text-transform: uppercase;
-}
-sup {
-    top: -.9em !important;
-    font-size: 18px !important;
-    font-weight: lighter !important;
-=======
 sup {
     top: -.9em !important;
     font-size: 18px !important;
