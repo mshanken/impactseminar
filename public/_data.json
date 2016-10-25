@@ -13,13 +13,10 @@
 		"title": "Impact Seminar 2017",
 		"description": "Impact Seminar",
 		"keywords": "WS Apps, itunes, Impact Seminar"
-	}
-	"hotel": test{
+	},
+	"hotel":{
 		"title": "Impact Seminar 2017",
 		"description": "Impact Seminar",
 		"keywords": "WS Apps, itunes, Impact Seminar"
-	}
-	"testing_git"{
-		title:this is testing on the master branch
 	}
 }
