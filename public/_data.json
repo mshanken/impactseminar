@@ -1,0 +1,25 @@
+{
+	"index": {
+		"title": "Impact Seminar 2017",
+		"description": "Impact Seminar",
+		"keywords": "WS Apps, itunes, Impact Seminar"
+	},
+	"agenda": {
+		"title": "Impact Seminar 2017",
+		"description": "Impact Seminar",
+		"keywords": "WS Apps, itunes, Impact Seminar"
+	},
+	"speakers": {
+		"title": "Impact Seminar 2017",
+		"description": "Impact Seminar",
+		"keywords": "WS Apps, itunes, Impact Seminar"
+	}
+	"hotel": test{
+		"title": "Impact Seminar 2017",
+		"description": "Impact Seminar",
+		"keywords": "WS Apps, itunes, Impact Seminar"
+	}
+	"testing_git"{
+		title:this is testing on the master branch
+	}
+}
