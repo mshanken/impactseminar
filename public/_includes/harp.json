@@ -1,0 +1,14 @@
+{
+  "globals": {
+    "title": "WS Apps",
+    "description": "Wine Spectator Mobile Apps",
+    "keywords": "WS Apps, itunes, google play",
+    "name": "Edison A. Leon",
+    "email": "eleon@mshanken.com",
+    "uri": "www.mshanken.com",
+
+    "typekit": false,
+    "analytics": false,
+    "disqus": false
+  }
+}
