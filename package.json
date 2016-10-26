@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "elwebdeveloper"
+    "url": "nickwebdeveloper"
   },
-  "author": "Edison A. Leon",
+  "author": "Nick Gauthier",
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
