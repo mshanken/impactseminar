@@ -298,8 +298,10 @@ sup {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 30px;
 }
 .cancel_info{
+  font-size: 15px;
   text-align: center;
 }
 /* END OF General Style  (may have to change the section title) /*
