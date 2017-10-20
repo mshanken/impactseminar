@@ -1,7 +1,7 @@
 
 /* site_space */
 .site_space{
-  width: 1024px;
+  /*width: 1024px;*/
   margin: 0 auto;
 }
 /* site_space */
@@ -237,6 +237,21 @@ sup {
   text-align: center;
   font-weight: 800;
 }
+.name{
+  color: #1c3b6e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.title{
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+/* END OF General Style  (may have to change the section title) /*
 
 /* ----------- iPhone 4 and 4S ----------- */
 
