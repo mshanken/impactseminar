@@ -269,6 +269,16 @@ sup {
   margin-top: 20px;
   margin-bottom: 0px;
 }
+.register_color{
+  background-color: #1c3b6e;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 31px;
+  padding: 10px 100px;
+  text-align: center;
+  border: 0;
+  text-transform: uppercase;
+}
 /* END OF Speaker Page */
 
 /* General Style */ 
@@ -278,6 +288,19 @@ sup {
 .large-border{
   background-color: #1c3b6e;
   height:30px;
+}
+#space{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.emailus{
+  color: #361f0c;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.cancel_info{
+  text-align: center;
 }
 /* END OF General Style  (may have to change the section title) /*
 
