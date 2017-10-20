@@ -4,6 +4,8 @@
   width: 1024px;
   margin: 0 auto;
 }
+/* site_space */
+
 /* nav */
 .navbar {
   background-color: #dee4f3;
@@ -105,7 +107,20 @@ sup {
   font-size: 17px;
   text-align: center;
 }
-/*  Hotel Page */
+.host_name{
+  color: #1c3b6e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.host_title{
+  color: #466597;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*  END OF Hotel Page */
 
 /* Agenda Page */
 .heading-border{
@@ -181,22 +196,9 @@ sup {
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
 }
-/* End of Agenda Page */
+/* END OF Agenda Page */
 
 /* Speaker Page */
-.host_name{
-  color: #1c3b6e;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  margin-bottom: 0px;
-}
-.host_title{
-  color: #466597;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-}
 #speakers_borders {
   display: block;
   background-color: white;
@@ -221,7 +223,20 @@ sup {
 #speakers_space{
   margin-top: 20px;
 }
-/* End of Speaker Page */
+/* END OF Speaker Page */
+
+/* General Style */ 
+.headline_width{
+  width: 1024px;
+}
+.headlines{
+  color: #ffffff;
+  background-color: #1c3b6e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 43px;
+  text-align: center;
+  font-weight: 800;
+}
 
 /* ----------- iPhone 4 and 4S ----------- */
 
