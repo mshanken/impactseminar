@@ -259,6 +259,16 @@ sup {
   text-align: center;
   line-height: 1.8;
 }
+.moderators_name{
+  color: #1c3b6e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
 /* END OF Speaker Page */
 
 /* General Style */ 
