@@ -39,6 +39,20 @@
 #footer_border{
 	border-bottom: solid 40px #1c3b6e;
 }
+/* nav */
+.navbar {
+  background-color: #dee4f3;
+  font-family: 'Open Sans', sans-serif;
+}
+nav, li, a {
+  color: #1c3b6e !important;
+}
+.nav_text{
+  font-size: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 /* END OF GENERAL */
 
 /*Index Page */
