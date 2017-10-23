@@ -47,7 +47,28 @@ a, .email_link{
 /*End of Index Page */
 
 /*Agenda Page */
-
+.a{
+	text-align:center;
+}
+.b{
+	text-align:center;
+}
+.c{
+	text-align:center;
+}
+.d{
+	text-align:center;
+}
+.e{
+	text-align:center;
+}
+#bgcolors{
+	background-color: #dcddde;
+    width: 300px;
+    margin-right: 40px;
+    padding: 10px;
+    margin-left: 40px;
+}
 /*End of Agenda Page */
 
 /*Speakers Page */
