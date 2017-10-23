@@ -36,6 +36,9 @@
 	font-family: 'Open sans', Helvetica, Arial, sans-serif;;
 	font-size: 21px;
 }
+#footer_border{
+	border-bottom: solid 40px #1c3b6e;
+}
 /* END OF GENERAL */
 
 /*Index Page */
@@ -69,6 +72,7 @@ a, .email_link{
 	margin-top: 0px;
 }
 .c{
+	color: #000000;
 	text-align:center;
 	font-size: 20px;
 }
