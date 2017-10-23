@@ -63,6 +63,10 @@ a, .email_link{
     width: 500px;
     margin-left: 31px;
 }
+.speakers_image{
+	margin-top: 30px;
+	width: 513px;
+}
 .bios_image{
 	margin: 0 auto;
 }
