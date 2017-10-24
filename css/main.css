@@ -163,8 +163,53 @@ a {
 	margin-top: 30px;
 	width: 513px;
 }
+.bioimg{
+	border: 4px solid #dee4f3;
+    border-radius: 4px;
+}
 .bios_image{
 	margin: 0 auto;
+}
+.name{
+  color: #1c3b6e;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.title{
+  color: #000000;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.8;
+}
+.quote{
+  color: #1c3b6e;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.moderators_name{
+  color: #1c3b6e;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.moderators_title{
+	color: #000000;
+    font-family: 'Open sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.8;
 }
 .center_name{
 	text-align: center;
@@ -172,6 +217,27 @@ a {
 #moderators{
 	padding-right: 25px;
 	padding-left: 25px;
+}
+.btn{
+  color: #ffffff !important;
+  background-color:#1c3b6e !important;
+  padding:15px 100px 15px 100px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+}
+.register_color{
+	color: #ffffff;
+    background-color: #1c3b6e;
+    font-family: 'Open sans', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    border: 0;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px
 }
 .foot_notes{
 	text-align: center;
