@@ -36,26 +36,41 @@
 	font-family: 'Open sans', Helvetica, Arial, sans-serif;;
 	font-size: 21px;
 }
+#email_us{
+	color: #361f0c !important;
+}
+.email_link{
+	color: #361f0c;
+}
 #footer_border{
 	border-bottom: solid 40px #1c3b6e;
 }
+/* END OF GENERAL */
 /* navy */
 .navbar {
   background-color: #dee4f3;
   font-family: 'Open Sans', sans-serif;
 }
-nav, li {
-  color: #1c3b6e !important;
+nav, li, .nav_text{
+	color: #1c3b6e !important;
+	padding-left: 10px;
+    padding-right: 10px;
+    font-size: 27px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
 }
-.nav_text{
-  font-size: 27px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
+a {
+    color: #361f0c;
+    text-decoration: none;
 }
-/* navy */
-/* END OF GENERAL */
-
+#first_option{
+	padding-left: 50px;
+}
+.pike{
+    margin-left: 25px;
+}
+/* END OF navy */
 /*Index Page */
 .hp_copy{
 	color: #5d3514;
@@ -63,9 +78,6 @@ nav, li {
     text-align: center;
     font-family: 'Open sans', Helvetica, Arial, sans-serif;
     font-weight: 400;
-}
-a, .email_link{
-	color: #361f0c;
 }
 /*End of Index Page */
 
@@ -100,9 +112,37 @@ a, .email_link{
 #bgcolors{
 	background-color: #dcddde;
     width: 300px;
+    height: 300px;
     margin-right: 40px;
     padding: 10px;
     margin-left: 40px;
+}
+.hotelname{
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    color: #1c3b6e;
+    font-weight: 700;
+	margin-bottom: 0px;
+}
+.hosttext{
+	font-size: 14px;
+	font-family: Arial, helvetica, sans-serif;
+	text-align: left;
+	margin-bottom: 0px;
+}
+.host_text{
+	color: #000000;
+	font-size: 17px;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+	margin-bottom: 0px;
+	font-weight: lighter;
+}
+.hostnumber{
+	margin-top: 0px;
+}
+#hostextraspace{
+	margin-bottom: 15px;
 }
 /*End of Agenda Page */
 
@@ -135,12 +175,12 @@ a, .email_link{
 }
 .foot_notes{
 	text-align: center;
-	font-size: 20px;
-	margin-top: 20px;
+	font-size: 15px;
+    margin-top: 70px;
 }
 .foot_notes_2{
 	text-align: center;
-	font-size: 15px;
+	font-size: 11px;
 }
 /*End of Speakers Page */
 
