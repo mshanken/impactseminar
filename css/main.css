@@ -17,7 +17,7 @@
 	margin-bottom: 10px;
 }
 #like_design{
-    width: 1057px;
+    width: 1060px;
     margin: 30px auto;
 }
 .foot_notes{
@@ -170,6 +170,9 @@ a {
 .bios_image{
 	margin: 0 auto;
 }
+#bossman_space{
+	margin-top: 40px;
+}
 .name{
   color: #1c3b6e;
   font-family: 'Open sans', Helvetica, Arial, sans-serif;
@@ -201,7 +204,7 @@ a {
   font-weight: 700;
   text-align: left;
   text-transform: uppercase;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 .moderators_title{
@@ -215,6 +218,7 @@ a {
 	text-align: center;
 }
 #moderators{
+	padding-top: 20px;
 	padding-right: 25px;
 	padding-left: 25px;
 }
@@ -236,8 +240,8 @@ a {
     margin-top: 50px;
     margin-bottom: 0px;
     text-transform: uppercase;
-    padding-left: 50px;
-    padding-right: 50px
+    padding: 20px 50px 20px 50px;
+    font-weight: 700;
 }
 .foot_notes{
 	text-align: center;
