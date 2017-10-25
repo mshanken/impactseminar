@@ -431,11 +431,6 @@ a {
     padding: 20px 50px 20px 50px;
     font-weight: 700;
   }
-  .img-default{
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 /* Landscape */
