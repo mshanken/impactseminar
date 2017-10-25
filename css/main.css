@@ -740,6 +740,12 @@ a {
     line-height: 1.8;
     margin-left: 20px;
   }
+  .ipad_float{
+    float: right;
+  }
+  .ipad_float1{
+    margin-bottom: 20px;
+  }
 } 
 
 /* Landscape */
