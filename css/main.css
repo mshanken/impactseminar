@@ -766,6 +766,14 @@ a {
     font-weight: 600;
     text-transform: uppercase;
   }
+  #bgcolors {
+    background-color: #dcddde;
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+    padding: 10px;
+    margin-left: 0px;
+  }
 }
 
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
