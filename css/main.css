@@ -858,6 +858,9 @@ a {
   #ipad_shift {
     margin-left: 0px;
   }
+  .ipad_bios{
+    width: 300px;
+  }
 }
 
 /* Landscape */
