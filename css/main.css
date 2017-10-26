@@ -757,6 +757,15 @@ a {
     #like_design {
     width: 100%;
   }
+  nav, li, .nav_text {
+    color: #1c3b6e !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
 }
 
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
@@ -872,6 +881,15 @@ a {
     width: 312px;
     height: 290px;
     border-right: 2px solid #ffffff;
+  }
+  nav, li, .nav_text {
+    color: #1c3b6e !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 }
 
