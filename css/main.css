@@ -878,8 +878,8 @@ a {
     margin-right: 0px;
     margin-left: 0px;
     padding: 10px;
-    width: 312px;
-    height: 290px;
+    /*width: 312px;
+    height: 290px;*/
     border-right: 2px solid #ffffff;
   }
   nav, li, .nav_text {
@@ -922,7 +922,14 @@ a {
   and (max-device-width: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
-
+    #bgcolors {
+    background-color: #dcddde;
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    padding: 10px;
+    margin-left: 40px;
+  }
 }
 
 /* ----------- iPad Pro 12.9" ----------- */
@@ -954,5 +961,12 @@ a {
   and (max-device-width: 1366px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
-
+    #bgcolors {
+    background-color: #dcddde;
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    padding: 10px;
+    margin-left: 40px;
+}
 }
