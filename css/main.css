@@ -746,6 +746,9 @@ a {
   .ipad_float1{
     margin-bottom: 20px;
   }
+  .ipad_bios{
+    width: 200px;
+  }
 } 
 
 /* Landscape */
