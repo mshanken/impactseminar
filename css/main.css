@@ -699,9 +699,9 @@ a {
     background-color: #dcddde;
     width: 250px;
     height: 300px;
-    margin-right: 5px;
-    padding: 10px;
+    margin-right: 1px;
     margin-left: 0px;
+    padding: 10px;
   }
   .speakers_image {
     display: none;
