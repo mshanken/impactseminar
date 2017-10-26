@@ -688,6 +688,9 @@ a {
       width: 100%;
       margin: 30px auto;
   }
+  #first_option{
+    padding-left: 20px;
+  }
   li, a, #first_option {
       padding-left: 0px!important;
     }
@@ -739,9 +742,6 @@ a {
     text-align: left;
     line-height: 1.8;
     margin-left: 20px;
-  }
-  .ipad_float{
-    /*float: right;*/
   }
   .ipad_float1{
     margin-bottom: 20px;
