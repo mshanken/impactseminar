@@ -786,11 +786,12 @@ a {
   }
     #bgcolors {
     background-color: #dcddde;
-    width: 300px;
-    height: 300px;
-    margin-right: 13px;
-    padding: 10px;
+    margin-right: 0px;
     margin-left: 0px;
+    padding: 10px;
+    width: 240px;
+    height: 325px;
+    border-right: 3px solid #ffffff;
   }
   .speakers_image {
     margin-top: 0px;
@@ -862,6 +863,15 @@ a {
   }
   #ipad_shift {
     margin-left: 0px;
+  }
+  #bgcolors {
+    background-color: #dcddde;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    width: 312px;
+    height: 290px;
+    border-right: 2px solid #ffffff;
   }
 }
 
