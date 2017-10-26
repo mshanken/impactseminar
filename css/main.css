@@ -741,7 +741,7 @@ a {
     margin-left: 20px;
   }
   .ipad_float{
-    float: right;
+    /*float: right;*/
   }
   .ipad_float1{
     margin-bottom: 20px;
