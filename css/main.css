@@ -118,11 +118,11 @@ a {
     margin-left: 40px;
 }
 .hotelname{
-    text-align: left;
-    font-size: 17px;
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
-    color: #1c3b6e;
-    font-weight: 700;
+  text-align: left;
+  font-size: 17px;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  color: #1c3b6e;
+  font-weight: 700;
 	margin-bottom: 0px;
 }
 .hosttext{
@@ -134,7 +134,7 @@ a {
 .host_text{
 	color: #000000;
 	font-size: 17px;
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
 	margin-bottom: 0px;
 	font-weight: lighter;
 }
@@ -149,15 +149,15 @@ a {
 /*Speakers Page */
 .ms_header-border{
 	text-align: center;
-    font-size: 41px;
-    font-weight: 600;
-    font-family: 'Open sans', Helvetica, Arial, sans-serif;
-    background-color: #1c3b6e;
-    color: #ffffff;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    width: 500px;
-    margin-left: 31px;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  background-color: #1c3b6e;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  width: 500px;
 }
 .speakers_image{
 	margin-top: 30px;
@@ -209,10 +209,10 @@ a {
 }
 .moderators_title{
 	color: #000000;
-    font-family: 'Open sans', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    text-align: left;
-    line-height: 1.8;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.8;
 }
 .center_name{
 	text-align: center;
@@ -233,21 +233,21 @@ a {
 }
 .register_color{
 	color: #ffffff;
-    background-color: #1c3b6e;
-    font-family: 'Open sans', Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    border: 0;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    padding: 20px 50px 20px 50px;
-    font-weight: 700;
+  background-color: #1c3b6e;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  padding: 20px 50px 20px 50px;
+  font-weight: 700;
 }
 .foot_notes{
 	text-align: center;
 	font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .foot_notes_2{
 	text-align: center;
@@ -255,9 +255,6 @@ a {
 }
 /*End of Speakers Page */
 
-/*Hotel Page */
-
-/*End of Hotel Page */
 
 /* ----------- iPhone 4 and 4S ----------- */
 
