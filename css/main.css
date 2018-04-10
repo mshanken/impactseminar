@@ -73,11 +73,11 @@ a {
 /* END OF navy */
 /*Index Page */
 .hp_copy{
-	color: #5d3514;
-    font-size: 27px;
-    text-align: center;
-    font-family: 'Open sans', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+  color: #5d3514;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 .footer_text{
   color: #361f0c;
