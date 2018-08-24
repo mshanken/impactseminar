@@ -73,11 +73,15 @@ a {
 /* END OF navy */
 /*Index Page */
 .hp_copy{
-	color: #5d3514;
-    font-size: 27px;
+	  color: #1c1f5b;
+    font-size: 30px;
     text-align: center;
     font-family: 'Open sans', Helvetica, Arial, sans-serif;
     font-weight: 400;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 /*End of Index Page */
 
