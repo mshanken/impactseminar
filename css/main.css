@@ -83,6 +83,35 @@ a {
     margin-bottom: 30px;
     margin-left: 20px;
 }
+.footer_text{
+  color: #361f0c;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-bottom:45px;
+}
+.mailto{
+  color: #361f0c;
+  font-size: 20px;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.register_color_2 {
+    color: #ffffff;
+    background-color: #1c3b6e;
+    font-family: 'Open sans', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    border: 0;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    padding: 20px 120px 20px 120px;
+    font-weight: 700;
+>>>>>>> 5f3ec764eb37bfec71b6717f618184b212d14e6f
+}
 /*End of Index Page */
 
 /*Agenda Page */
@@ -256,6 +285,9 @@ a {
 .foot_notes_2{
 	text-align: center;
 	font-size: 11px;
+}
+.sold_out{
+  margin-top: 20px;
 }
 /*End of Speakers Page */
 
