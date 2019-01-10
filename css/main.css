@@ -894,6 +894,11 @@ a {
   .ipad_bios{
     width: 300px;
   }
+  .c{
+  color: #000000;
+  text-align:center;
+  font-size: 18px !important;
+  }
 }
 
 /* Landscape */
@@ -997,6 +1002,9 @@ a {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    #bgcolors{
+      margin-left: 57px;
+    }
 
 }
 
