@@ -115,7 +115,16 @@ a {
 /*End of Index Page */
 
 /*Agenda Page */
-.a{
+#extra_space{
+  margin-top: 20px;
+}
+#first_date{
+  margin-top:18px;
+}
+#second_date{
+  margin-top:18px;
+}
+.section_title{
 	font-size: 27px;
 	text-align:center;
 	font-weight: 800;
@@ -123,7 +132,7 @@ a {
 	font-family: 'Open sans', Helvetica, Arial, sans-serif;
 	margin-bottom: 0px;
 }
-.b{
+.date{
 	font-size: 21px;
 	text-align:center;
 	font-weight: 600;
@@ -131,7 +140,7 @@ a {
 	font-family: 'Open sans', Helvetica, Arial, sans-serif;
 	margin-top: 0px;
 }
-.c{
+.date_details{
 	color: #000000;
 	text-align:center;
 	font-size: 20px;
