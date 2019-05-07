@@ -288,12 +288,13 @@ a {
 .foot_notes{
 	text-align: center;
 	font-size: 15px;
-  margin-top: 20px;
+  margin-top: 28px;
   margin-bottom: 20px;
 }
 .foot_notes_2{
 	text-align: center;
 	font-size: 11px;
+  margin-bottom: 45px;
 }
 .sold_out{
   margin-top: 20px;
