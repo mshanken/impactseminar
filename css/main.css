@@ -17,6 +17,17 @@
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
+.border{
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Open sans', Helvetica, Arial, sans-serif;
+  background-color: #dee4f3;
+  color: #1c3b6e;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
 #like_design{
     width: 1110px;
     margin: 30px auto;
@@ -118,12 +129,12 @@ a {
 #extra_space{
   margin-top: 20px;
 }
-#first_date{
+/*#first_date{
   margin-top:18px;
 }
 #second_date{
   margin-top:18px;
-}
+}*/
 .section_title{
 	font-size: 27px;
 	text-align:center;
