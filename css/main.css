@@ -126,6 +126,17 @@ a {
     padding: 20px 120px 20px 120px;
     font-weight: 700;
 }
+.alert_copy{
+    color: #ff0000;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open sans', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
 /*End of Index Page */
 
 /*Agenda Page */
