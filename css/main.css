@@ -46,7 +46,7 @@
 	font-family: 'Open sans', Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
-.bold{
+.bold {
 	font-weight: 600;
 	font-family: 'Open sans', Helvetica, Arial, sans-serif;;
 	font-size: 21px;
@@ -66,10 +66,11 @@
   background-color: #dee4f3;
   font-family: 'Open Sans', sans-serif;
 }
+
 nav, li, .nav_text{
 	color: #1c3b6e !important;
-	padding-left: 10px;
-  padding-right: 10px;
+	padding-left: 20px; /* EDITED FROM 10px WHEN HOTEL LINK WAS REMOVED*/
+  padding-right: 20px; /* EDITED FROM 10px WHEN HOTEL LINK WAS REMOVED*/
   font-size: 27px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -83,7 +84,7 @@ a {
 	padding-left: 50px;
 }
 .pike{
-    margin-left: 25px;
+    margin-left: 55px; /* EDITED FROM 25px WHEN HOTEL LINK WAS REMOVED*/
 }
 /* END OF navy */
 /*Index Page */
