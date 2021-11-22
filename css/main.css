@@ -295,7 +295,7 @@ a {
 }
 .btn{
   color: #ffffff !important;
-  background-color:#a10000 !important;
+  background-color:#183e6b !important;
   padding:15px 50px 15px 50px;
   margin: 0 auto;
   font-size: 30px;
@@ -1066,4 +1066,15 @@ a {
     padding: 10px;
     margin-left: 0px;
   }
+}
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
 }
