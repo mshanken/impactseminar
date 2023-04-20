@@ -85,7 +85,7 @@ a {
 	padding-left: 50px;
 }
 .pike{
-    margin-left: 55px; /* EDITED FROM 25px WHEN HOTEL LINK WAS REMOVED*/
+    margin-left: 25px; /* EDITED FROM 25px WHEN HOTEL LINK WAS REMOVED*/
 }
 /* END OF navy */
 /*Index Page */
@@ -871,7 +871,7 @@ a {
     color: #1c3b6e !important;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 15px;
+    font-size: 15px !important;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -991,6 +991,8 @@ a {
   and (min-device-width: 834px) 
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2) {
+  	
+
 
 }
 
@@ -1002,6 +1004,8 @@ a {
   and (max-device-width: 834px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+  	
+
 
 }
 
@@ -1076,5 +1080,27 @@ a {
 
 #content-desktop {display: none;}
 #content-mobile {display: block;}
+
+}
+
+/* Desktop Resize */
+@media (max-width: 1197px)
+ {
+    .nav_text {
+      font-size: 25px !important;
+      padding-left: 24px !important;
+      padding-right: 0px !important;
+    }
+
+}
+
+/* Desktop Resize */
+@media (max-width: 992px)
+ {
+    .nav_text {
+      font-size: 20px !important;
+      padding-left: 26px !important;
+      padding-right: 0px !important;
+    }
 
 }
